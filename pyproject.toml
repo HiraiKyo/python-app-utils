@@ -4,14 +4,14 @@ dev-python = {cmd = "dotenv --file envs/.env.development run -- python", help = 
 
 [tool.poetry]
 name = "python_app_utils"
-version = "0.1.0"
+version = "0.3.0"
 description = ""
 authors = ["HiraiKyo <kyo.mikhael@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.8.19"
+python = "^3.8"
 python-dotenv = "^1.0.1"
 pydantic = "^2.7.4"
 
